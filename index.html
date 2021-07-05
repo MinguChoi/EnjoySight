@@ -50,6 +50,15 @@
       </div>
    </section>
 
+   <script type="application/javascript">
+        const linkElement = document.getElementById("ar-link");
+        linkElement.addEventListener("message", function (event) {
+            if(event.data == "_apple_ar_quicklook_button_tapped") {
+                // handle the user tap.
+                alert("tapped");
+            }
+        }, false);
+   </script>
    <section class="reautrant" id="reautrant">
        <h2 class="main-content__heading"><span>D</span>aeGu</h2>
         <!--   main-content__menu San-Francisco start's here -->
