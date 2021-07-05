@@ -11,75 +11,35 @@
     <header>
         <a href="#" class="logo">Food<span>.</span></a>
 
-        <ul class="navigation">
-            <li><a href="#banner">Home</a></li>
-
-            <li><a href="#reautrant">reautrant</a></li>
-
-            <li><a href="#review">Reviews</a></li>
-
-        </ul>
-    </header>
+       </header>
    <section class="banner" id="banner">
-    <div class="search">
-        <div class="left-side">
-          <input type="text" placeholder="tacos, cheap dinner, Max's" class="field request">
-          <div class="field-wrapper">
-              <span class="field-title find">Find</span>
-          </div>
-          <ul class="left-side__sublist">
-            <li class="left-side__subitem"><a href="#" class="left-side__sublink restaraunts first">Restaurants</a></li>
-            <li class="left-side__subitem"><a href="#" class="left-side__sublink bar">Breakfast & Brunch</a></li>
-            <li class="left-side__subitem"><a href="#" class="left-side__sublink coffee">Coffee & tea</a></li>
-            <li class="left-side__subitem"><a href="#" class="left-side__sublink delivery">Delivery</a></li>
-            <li class="left-side__subitem"><a href="#" class="left-side__sublink takeout">Takeout</a></li>
-            <li class="left-side__subitem"><a href="#" class="left-side__sublink reservations">Reservations</a></li>
-          </ul>
-        </div>
-        <div class="right-side">
-          <input type="text" placeholder="San Francisco, CA" class="field location">
-          <div class="field-wrapper">
-            <span class="field-title near">Near</span>
-          </div>
-          <ul class="right-side__sublist">
-            <li class="right-side__subitem"><a href="javascript.void(0);" class="right-side__sublink current">Current Location</a></li>
-            <li class="right-side__subitem"><a href="javascript.void(0);" class="right-side__sublink state">San Francisco</a></li>
-          </ul>
-        </div>
-        <a href="javascript.void(0);" class="search-button">Search</a>
-      </div>
-   </section>
+     </section>
 
    <section class="reautrant" id="reautrant">
-       <h2 class="main-content__heading"><span>D</span>aeGu</h2>
+       <h2 class="main-content__heading"><span>M</span>enu</h2>
         <!--   main-content__menu San-Francisco start's here -->
         <nav class="main-content__reautrant">
           <ul class="reautrant-list">
             <li class="reautrant-list__item_hot"><a href="javascript:void(0);" class="reautrant-list__link_hot">Hot!!</a></li>
-            <li class="reautrant-list__item"><a href="javascript:void(0);" class="reautrant-list__link">Seoul</a></li>
-            <li class="reautrant-list__item"><a href="javascript:void(0);" class="reautrant-list__link">Busan</a></li>
-            <li class="reautrant-list__item"><a href="javascript:void(0);" class="reautrant-list__link">GyungJu</a></li>
-            <li class="reautrant-list__item"><a href="javascript:void(0);" class="reautrant-list__link">WoolSan</a></li>
-            <li class="reautrant-list__item"><a href="javascript:void(0);" class="reautrant-list__link">JeJu</a></li>
-            <li class="reautrant-list__item"><a href="javascript:void(0);" class="reautrant-list__link more-cities">More Cities</a></li>
-          </ul>
+            <li class="reautrant-list__item"><a href="javascript:void(0);" class="reautrant-list__link">Food</a></li>
+            <li class="reautrant-list__item"><a href="javascript:void(0);" class="reautrant-list__link">Shoes</a></li>
+
+
+
+            </ul>
         </nav>
        <div class="content">
            <div class="box">
                <div class="imgBx">
-                    <a rel="ar" id="ar-link" href="toy_robot_vintage.usdz#applePayButtonType=plain&checkoutTitle=Retro%20Alarm%20Clock&checkoutSubtitle=With%20built-in%20FM%20tuner&price=$92.50&canonicalWebPageURL=http://developer.apple.com/toy_robot_vintage-product-page/&allowsContentScaling=0">
-                        <img src="menu1.jpg">
-                    </a>
+                   <img src="menu1.jpg">
                </div>
                <div class="text">
                    <h3>reautrant1</h3>
                </div>
            </div>
            <div class="box">
-            <div class="imgBx"> 
-                <a id="ar-link" rel="ar" href="https://example.com/cool-model.usdz#applePayButtonType=pay....etc">
-                    <img src="menu2.jpg">
-                </a>
+            <div class="imgBx">
+                <img src="menu2.jpg">
             </div>
             <div class="text">
                 <h3>reautrant2</h3>
@@ -120,91 +80,11 @@
 
 
        </div>
-       <div class="menu-category__more">
-        <a href="javascript:void(0);" class="menu-category__link">See more reautrant</a>
-      </div>
+
    </section>
 
-    <script type="application/javascript">
-        const linkElement = document.getElementById("ar-link");
-        linkElement.addEventListener("message", function (event) {
-            if(event.data == "_apple_ar_quicklook_button_tapped") {
-                // handle the user tap.
-                alert("tapped");
-                location.href = 'sms:01072296204&body=테스트메세지';
-            }
-        }, false);
-    </script>
 
-   <section class="review" id="review">
-    <div class="title white">
-    <h2 class="titleText"><span>N</span>ew <span>R</span>eview</h2>
 
- </div>
- <div class="content">
-     <div class="box">
-        <div>
-         <div class="imgBx">
-             <img src="testi1.jpg">
-         </div>
-
-        </div>
-         <form id="form" action="main.php">
-            <i star-rating="1" class="fas fa-star star"></i>
-            <i star-rating="2" class="fas fa-star star"></i>
-            <i star-rating="5" class="fas fa-star star" id="none"></i>
-            <i star-rating="5" class="fas fa-star star" id="none"></i>
-            <i star-rating="5" class="fas fa-star star" id="none"></i>
-
-        </form>
-         <div class="text">
-             <p>Loerm ipsum doloar sit amet, consectetrur adipisicing elit, sed do eiusmod
-                 tempor incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam,
-                 quis nostrud expercitation ullamco laboris nisi ut aliquip ex ea </p>
-                 <h3>See more</h3>
-             </div>
-     </div>
-     <div class="box">
-        <div class="imgBx">
-            <img src="testi2.jpg">
-        </div>
-        <form id="form" action="main.php">
-            <i star-rating="1" class="fas fa-star star"></i>
-            <i star-rating="2" class="fas fa-star star"></i>
-            <i star-rating="3" class="fas fa-star star"></i>
-            <i star-rating="4" class="fas fa-star star" id="none"></i>
-            <i star-rating="5" class="fas fa-star star" id="none"></i>
-
-        </form>
-        <div class="text">
-            <p>Loerm ipsum doloar sit amet, consectetrur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud expercitation ullamco laboris nisi ut aliquip ex ea </p>
-                <h3>See more</h3>
-            </div>
-    </div>
-    <div class="box">
-        <div class="imgBx">
-            <img src="testi3.jpg">
-        </div>
-        <form id="form" action="main.php">
-            <i star-rating="1" class="fas fa-star star"></i>
-            <i star-rating="2" class="fas fa-star star"></i>
-            <i star-rating="3" class="fas fa-star star"></i>
-            <i star-rating="4" class="fas fa-star star"></i>
-            <i star-rating="5" class="fas fa-star star" id="none"></i>
-
-        </form>
-        <div class="text">
-            <p>Loerm ipsum doloar sit amet, consectetrur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore tet dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud expercitation ullamco laboris nisi ut aliquip ex ea </p>
-                <h3>See more</h3>
-            </div>
-    </div>
-
- </div>
-</section>
 
    <script type="text/javascript">
     window.addEventListener('scroll',function(){
