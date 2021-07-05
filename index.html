@@ -50,16 +50,6 @@
       </div>
    </section>
 
-   <script type="application/javascript">
-        const linkElement = document.getElementById("ar-link");
-        linkElement.addEventListener("message", function (event) {
-            if(event.data == "_apple_ar_quicklook_button_tapped") {
-                // handle the user tap.
-                alert("tapped");
-                location.href = 'sms:01072296204&body=테스트메세지';
-            }
-        }, false);
-   </script>
    <section class="reautrant" id="reautrant">
        <h2 class="main-content__heading"><span>D</span>aeGu</h2>
         <!--   main-content__menu San-Francisco start's here -->
@@ -135,7 +125,16 @@
       </div>
    </section>
 
-
+    <script type="application/javascript">
+        const linkElement = document.getElementById("ar-link");
+        linkElement.addEventListener("message", function (event) {
+            if(event.data == "_apple_ar_quicklook_button_tapped") {
+                // handle the user tap.
+                alert("tapped");
+                location.href = 'sms:01072296204&body=테스트메세지';
+            }
+        }, false);
+    </script>
 
    <section class="review" id="review">
     <div class="title white">
